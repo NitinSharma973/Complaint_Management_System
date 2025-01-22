@@ -1,0 +1,60 @@
+/* ComplaintTable.css */
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fafafa;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Style for the table container */
+table {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive table for small screens */
+@media screen and (max-width: 768px) {
+  th,
+  td {
+    padding: 8px;
+  }
+
+  select {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+}

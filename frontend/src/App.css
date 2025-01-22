@@ -1,0 +1,108 @@
+/* App.css */
+
+/* Ensure body and html take up full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Full-screen container to hold all components */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh; /* Ensures full screen height */
+  width: 200%; /* Ensure full width */
+  max-width: 1400px; /* Increased max-width to make the content wider */
+  padding: 30px; /* Increased padding for more space */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Header Styling */
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 1.5rem 0; /* Increased padding for header */
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem; /* Increased font size for header */
+}
+
+/* Navigation Links */
+.nav-links {
+  margin-top: 40px; /* Increased margin */
+  margin-bottom: 40px; /* Increased margin */
+}
+
+.nav-links .btn {
+  font-size: 1.5rem; /* Increased font size */
+  padding: 1rem 2rem; /* Increased padding for buttons */
+  text-decoration: none;
+  border-radius: 8px; /* Rounded corners */
+  margin: 10px;
+}
+
+.nav-links .btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.nav-links .btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.nav-links .btn:hover {
+  opacity: 0.8;
+}
+
+/* Main content area styling */
+.main-content {
+  flex-grow: 1;
+  background-color: #f9f9f9;
+  padding: 30px; /* Increased padding for main content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px; /* Increased margin */
+  text-align: left; /* Align text to the left inside the content */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #f1f1f1;
+  padding: 15px; /* Increased padding for footer */
+  font-size: 1.2rem; /* Increased font size for footer */
+  color: #333;
+  margin-top: 30px; /* Increased margin */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem; /* Adjusted for smaller screen */
+  }
+
+  .nav-links .btn {
+    font-size: 1.2rem; /* Adjusted for smaller screen */
+    padding: 0.8rem 1.5rem; /* Adjusted for smaller screen */
+  }
+
+  .app-container {
+    padding: 25px; /* Reduced padding on small screens */
+  }
+
+  .main-content {
+    padding: 20px; /* Reduced padding for small screens */
+  }
+}
