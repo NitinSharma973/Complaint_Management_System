@@ -43,6 +43,20 @@ A complete web-based Complaint Management System for managing user complaints an
 - MongoDB installed locally or a MongoDB Atlas account
 - SendGrid or Mailgun API key
 
+### Screenshot
+
+
+![Image 6](https://github.com/user-attachments/assets/70d92dc1-9de7-4a8d-82f7-5e798356462d)
+![Image 4](https://github.com/user-attachments/assets/37940a23-af2a-413a-b05b-461f3c9f4192)
+![Image 3](https://github.com/user-attachments/assets/49dea22f-7a8d-4f75-a6f7-5555cc44a28a)
+![Image 2](https://github.com/user-attachments/assets/8f1fb09f-1ec5-486b-ae03-2cb15f905866)
+
+![Image 1](https://github.com/user-attachments/assets/0527bb82-9199-4488-a20e-1d810cbeccd2)
+
+
+
+
+
 ### Steps
 
 1. **Clone the Repository**:
@@ -53,17 +67,10 @@ A complete web-based Complaint Management System for managing user complaints an
  2. **Install Dependencies and Start the Application**:
    ```bash
     npm install
-     cd frontend && npm install
-     npm start
-     cd frontend && npm start
-      cd backend && nodemon server.js
-
-### Screenshoot
-
-![Image 6](https://github.com/user-attachments/assets/ef5b0f94-f2ce-418a-851d-4203f9cdab0e)
-![Image 4](https://github.com/user-attachments/assets/16fb7bf7-a9aa-45df-b311-4376fda55bf0)
-![Image 3](https://github.com/user-attachments/assets/50bb9fa8-29c6-4893-b53f-646af4ab0cf7)
-![Image 2](https://github.com/user-attachments/assets/c2b2999a-678a-4b66-a627-544269bcb7e4)
+    cd frontend && npm install
+    npm start
+    cd frontend && npm start
+    cd backend && nodemon server.js
 
 
 
