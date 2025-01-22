@@ -59,12 +59,11 @@ A complete web-based Complaint Management System for managing user complaints an
       cd backend && nodemon server.js
 
 ### Screenshoot
-![Image 1](https://github.com/user-attachments/assets/df4ae121-9c18-4565-bd91-d297d4bbcf0c)
-![Image 2](https://github.com/user-attachments/assets/23405554-c10d-4704-a585-3d0e059054be)
-![Image 3](https://github.com/user-attachments/assets/57ba45c9-dcfe-443c-bcad-40ff5f3ca754)
-![Image 4](https://github.com/user-attachments/assets/cd42f117-e27b-4bf4-b4bf-21b77fcd543c)
 
-![Image 6](https://github.com/user-attachments/assets/ca04cc6d-1b3b-4ee4-9201-8c806b441772)
+![Image 6](https://github.com/user-attachments/assets/ef5b0f94-f2ce-418a-851d-4203f9cdab0e)
+![Image 4](https://github.com/user-attachments/assets/16fb7bf7-a9aa-45df-b311-4376fda55bf0)
+![Image 3](https://github.com/user-attachments/assets/50bb9fa8-29c6-4893-b53f-646af4ab0cf7)
+![Image 2](https://github.com/user-attachments/assets/c2b2999a-678a-4b66-a627-544269bcb7e4)
 
 
 
