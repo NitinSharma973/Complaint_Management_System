@@ -49,3 +49,30 @@ A complete web-based Complaint Management System for managing user complaints an
    ```bash
    git clone https://github.com/your-username/complaint-management-system.git
    cd complaint-management-system
+
+ 2. **Install Dependencies and Start the Application**:
+   ```bash
+    npm install
+     cd frontend && npm install
+     npm start
+     cd frontend && npm start
+      cd backend && nodemon server.js
+
+### Screenshoot
+![Image 1](https://github.com/user-attachments/assets/df4ae121-9c18-4565-bd91-d297d4bbcf0c)
+![Image 2](https://github.com/user-attachments/assets/23405554-c10d-4704-a585-3d0e059054be)
+![Image 3](https://github.com/user-attachments/assets/57ba45c9-dcfe-443c-bcad-40ff5f3ca754)
+![Image 4](https://github.com/user-attachments/assets/cd42f117-e27b-4bf4-b4bf-21b77fcd543c)
+
+![Image 6](https://github.com/user-attachments/assets/ca04cc6d-1b3b-4ee4-9201-8c806b441772)
+
+
+
+
+
+
+ 
+
+
+
+
